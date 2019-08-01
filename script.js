@@ -25,3 +25,4 @@ d3.select(".chart")
                .html("Item #"+i+" is "+d);
     })
     .on("mouseout", function() { tooltip.style("opacity", 0) })
+    console.log("sayan")
